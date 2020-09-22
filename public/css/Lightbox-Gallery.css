@@ -1,0 +1,33 @@
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin: 20px;
+  color: #FFF;
+  box-shadow: 0px 2px 10px 0px #0e26ff;
+  background: linear-gradient(135deg, #000000, #21a9af);
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
